@@ -1,0 +1,1 @@
+load(grobner)$ poly_monomial_order:lex$ poly_reduction(poly_grobner([x^2+x*y-1,2*x*y+3*x,x^3],[x,y]),[x,y]);

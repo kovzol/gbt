@@ -1,0 +1,4 @@
+<?php
+ $TIMEOUT=60;
+ $HARD_TIMEOUT=$TIMEOUT*2;
+?>

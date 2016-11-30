@@ -1,0 +1,1 @@
+ring r=0,(x,y),lp;ideal I=x^2+x*y-1,2*x*y+3*x,x^3; option(redSB); groebner(I);

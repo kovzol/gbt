@@ -1,0 +1,5 @@
+vars=x,y
+polys=x^2+x*y-1,2*x*y+3*x,x^3
+cas=giac.php,maxima.php,singular.php
+termorder=lex
+id=1480506942440

@@ -1,0 +1,15 @@
+#!/bin/bash
+# This is just an example, please modify it manually if needed.
+JAVADIR=edu/jas/application
+LIBDIR=/home/joe/java/lib
+cp -a /home/joe/jas/jas-2.4 .
+cd jas-2.4
+cat - > src/$JAVADIR/Examples.java
+source /home/joe/java-settings
+export JAVA_HOME=/home/joe/jre/jdk1.5.0_22
+export JDK_HOME=$JAVA_HOME
+export JAVACMD=$JAVA_HOME/bin/java
+export JAVA_HOME
+ant compile > ant-compile.out 2> ant-compile.err
+java -classpath $LIBDIR/log4j.jar:.:$LIBDIR/junit.jar edu.jas.application.Examples 2>&1
+
