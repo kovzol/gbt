@@ -47,12 +47,12 @@ to world writable:
 Now by pointing your browser to http://IP.OF.YOUR.SERVER/~joe/gbtest/
 you should see the following:
 
-(gbt-index.png)
+(/gbt-index.png)
 
 By filling in the form with the provided example, and submitting it,
 the following is what you should expect:
 
-(gbt-monitoring.png)
+(/gbt-monitoring.png)
 
 The output of each computer algebra system should be an ideal with the
 element `1'. For example, in Maxima something like this should be shown
