@@ -1,0 +1,34 @@
+
+Maxima 5.37.2 http://maxima.sourceforge.net
+using Lisp GNU Common Lisp (GCL) GCL 2.6.12
+Distributed under the GNU Public License. See the file COPYING.
+Dedicated to the memory of William Schelter.
+The function bug_report() provides bug reporting information.
+(%i1) (%o3) [v9, v7, v10 - 1, v8, v5 - 1, v3, v6, v4, v20, v2, v15 - v19, v1, 
+                                        2            2
+v13 v16 - v14 v15, (- 2 v14 v16) - 2 v14  v15 - 2 v13  v15 - 4 v13 v15 - 2 v15
+      2        2                                                   2      2
+ + v14  + 2 v13  + 4 v13 + 1, (- 2 v14 v15 v16) + 2 v14 v16 + 2 v15  + v14  v15
+            2                     2                      2
+ + v15 - v14  - 1, 2 v15 v16 - v14  v16 - v16 + 2 v14 v15  - 2 v13 v14 v15
+                                          3                         2
+ - 4 v14 v15 + 2 v13 v14 + 2 v14, (- 2 v14  v16) + 2 v14 v16 + 2 v14  v15
+                          4        2
+ + 4 v13 v15 + 2 v15 + v14  - 4 v13  - 4 v13 - 1, 
+                 4            2                                  4      4
+8 v14 v16 + 2 v14  v15 + 8 v14  v15 + 8 v13 v15 + 6 v15 - v13 v14  + v14
+            2        2        3        2
+ - 2 v13 v14  - 6 v14  + 4 v13  - 4 v13  - 13 v13 - 3, 
+   6      2    4        4        2    2      2        4        3        2
+v14  + v13  v14  - 2 v14  - 2 v13  v14  + v14  - 4 v13  - 8 v13  - 3 v13 , 
+                                    2                               2      2
+(- v18) + v16 + 1, v15 - v17, (- v24 ) - 2 v14 v16 - 2 v13 v15 + v14  + v13
+            2       2                     2     2      2        2       2
+ + 1, (- v25 ) + v15  - 2 v15 + 1, 1 - v23 , v15  - v26 , (- v16 ) - v15  + 1, 
+                     2        2      2                2
+2 v14 v16 + 2 v13 v15  + 2 v15  + v14  v15 + v15 - v14  - 2 v13 - 1, 
+                     2            2                              4            2
+4 v14 v16 + 2 v13 v14  v15 + 6 v14  v15 + 2 v13 v15 + 2 v15 + v14  - 2 v13 v14
+        2        2
+ - 4 v14  - 4 v13  - 6 v13 - 1]
+(%i4) 

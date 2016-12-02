@@ -81,7 +81,8 @@ inserted into a text file for further processing by the script
 This text file needs to be put into the benchmark/ folder.
 </p>
 
-<p>To get more accurate results it may be however useful to run the benchmark.php script from
+<p>To get more accurate results (when the web server has a problem with
+timeout) it may be however useful to run the benchmark.php script from
 command line. (In this case all computer algebra systems will be attempted to test,
 even if they are disabled.) First the text file <a href=benchmark/list>list</a> in the benchmark/ folder
 must be edited with entries

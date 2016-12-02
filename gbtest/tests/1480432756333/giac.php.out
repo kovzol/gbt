@@ -1,0 +1,12 @@
+Welcome to giac readline interface
+(c) 2001,2016 B. Parisse & others
+Homepage http://www-fourier.ujf-grenoble.fr/~parisse/giac.html
+Released under the GPL license 3.0 or above
+See http://www.gnu.org for license details
+May contain BSD licensed software parts (lapack, atlas, tinymt)
+-------------------------------------------------
+Press CTRL and D simultaneously to finish session
+Type ?commandname for help
+0>> gbasis([2+5*v6+-1*v6^2+2*v5+-1*v5^2],[v5,v6],revlex)
+[-v5^2-v6^2+2*v5+5*v6+2]
+1>> 

@@ -1,0 +1,20 @@
+*** Cannot access default package directory: "packages" ***
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!! WARNING: Standard CoCoA packages not found !!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+   ______      ______      ___         ______
+  / ____/___  / ____/___  /   |       / ____/
+ / /   / __ `/ /   / __ `/ /| |______/___ `  
+/ /___/ /_/ / /___/ /_/ / ___ /_____/___/ /  
+`____/`____/`____/`____/_/  |_|    /_____/   
+With CoCoALib and external libraries CDD FROBBY GFAN GSL NORMALIZ READLINE 
+indent(VersionInfo()); -- for information about this version
+
+# use QQ[v5,v6], DegRevLex;
+
+# GBasis(ideal(2+5*v6+-1*v6^2+2*v5+-1*v5^2));
+[-v5^2 -v6^2 +2*v5 +5*v6 +2]
+
+# 

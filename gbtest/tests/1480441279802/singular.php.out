@@ -1,0 +1,18 @@
+                     SINGULAR                                 /
+ A Computer Algebra System for Polynomial Computations       /   version 4.0.3
+                                                           0<
+ by: W. Decker, G.-M. Greuel, G. Pfister, H. Schoenemann     \   Jan 2016
+FB Mathematik der Universitaet, D-67653 Kaiserslautern        \  Debian 4.0.3+ds-1
+_[1]=x1
+_[2]=x2
+_[3]=x3
+_[4]=x6
+_[5]=2*x4^2-x5*x-x4*y-3*x4+y+1
+_[6]=x5*x4-x4*x-x5*y
+_[7]=2*x5^2-x5*x-x4*y+x4+y-1
+_[8]=x5*x*y+x4*y^2+3*x5*x-2*x^2-2*x4*y-y^2+x4+2*y-1
+_[9]=x4*x^2-x4*y^2-4*x5*x+3*x^2+2*x4*y+y^2-x4-2*y+1
+_[10]=x5*x^2+3*x4*x*y+2*x5*y^2+x4*x-4*x5*y-x*y+2*x5-3*x
+_[11]=x4*x*y^2+x5*y^3+x^3+6*x4*x*y+x5*y^2+x4*x-5*x5*y-4*x*y+3*x5-4*x
+_[12]=x^4-x^2*y^2+4*x4*y^3-18*x^2*y-20*x4*y^2-4*y^3-32*x5*x+19*x^2+28*x4*y+20*y^2-12*x4-28*y+12
+> Auf Wiedersehen.

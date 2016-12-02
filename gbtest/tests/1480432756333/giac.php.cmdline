@@ -1,0 +1,3 @@
+#!/bin/sh
+cd tests/1480432756333
+cat giac.php.in | /usr/bin/timeout -k 120 60 /usr/bin/time /usr/bin/giac > giac.php.out 2>giac.php.err

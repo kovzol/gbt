@@ -1,0 +1,5 @@
+vars=v5,v6
+polys=2+5*v6+-1*v6^2+2*v5+-1*v5^2
+cas=giac.php,maxima.php,singular.php
+termorder=revgradlex
+id=1480432756333

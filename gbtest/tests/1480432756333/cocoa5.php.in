@@ -1,0 +1,2 @@
+use QQ[v5,v6], DegRevLex;
+GBasis(ideal(2+5*v6+-1*v6^2+2*v5+-1*v5^2));

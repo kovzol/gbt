@@ -42,6 +42,8 @@ chdir("..");
 
 foreach ($benchmarks as $benchmark) {
  $id=$benchmark[0];
+ if ($id == "" || $id[0] == "#")
+  continue;
  $name=$benchmark[1];
  $content .= "<tr><td><b>$name</b></td>";
  foreach ($caslist as $cas) {

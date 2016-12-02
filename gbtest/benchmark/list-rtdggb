@@ -1,0 +1,9 @@
+# Some examples to test real-time dynamic geometry computations
+# based on Groebner bases. Rename this file to "list" and
+# re-run ../benchmark.php to recompute the results.
+
+1480441279802 String art
+1480432756333 Thales
+1480433719729 FPS
+1480434568522 Fig6
+1480434160791 Fig7

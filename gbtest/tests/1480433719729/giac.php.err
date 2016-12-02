@@ -1,0 +1,13 @@
+// Using locale /usr/share/locale/
+// C
+// /usr/share/locale/
+// giac
+// UTF-8
+// Maximum number of parallel threads 8
+Help file /usr/share/giac/doc/local/aide_cas not found
+Added 0 synonyms
+
+// Groebner basis computation time 0.002297 Memory 0.024468M
+// Time 0
+0.04user 0.00system 0:00.04elapsed 100%CPU (0avgtext+0avgdata 24504maxresident)k
+0inputs+16outputs (0major+1573minor)pagefaults 0swaps
