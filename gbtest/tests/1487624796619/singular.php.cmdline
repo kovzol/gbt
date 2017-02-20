@@ -1,0 +1,3 @@
+#!/bin/sh
+cd tests/1487624796619
+cat singular.php.in | /usr/bin/timeout -k 120 60 /usr/bin/time /usr/bin/Singular > singular.php.out 2>singular.php.err

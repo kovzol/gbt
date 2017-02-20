@@ -1,0 +1,17 @@
+// Using locale /usr/share/locale/
+// C
+// /usr/share/locale/
+// giac
+// UTF-8
+// Maximum number of parallel threads 8
+Help file /usr/share/giac/doc/local/aide_cas not found
+Added 0 synonyms
+
+
+Running a probabilistic check for the reconstructed Groebner basis. If successfull, error probability is less than 1e-15 and is estimated to be less than 10^-21. Use proba_epsilon:=0 to certify (this takes more time).
+// Groebner basis computation time 0.506471 Memory 0.029372M
+
+Evaluation time: 0.53
+// Time 0.53
+1.06user 0.04system 0:00.85elapsed 130%CPU (0avgtext+0avgdata 29424maxresident)k
+0inputs+80outputs (0major+2971minor)pagefaults 0swaps

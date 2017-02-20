@@ -1,0 +1,3 @@
+#!/bin/sh
+cd tests/1487620985506
+cat maxima.php.in | /usr/bin/timeout -k 120 60 /usr/bin/time /usr/bin/maxima > maxima.php.out 2>maxima.php.err
