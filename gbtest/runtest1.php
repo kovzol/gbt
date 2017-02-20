@@ -1,14 +1,14 @@
 <?php
 # fixme: sanitize input
-require_once("cas/".$_GET["cas"]);
+require_once("cas/".$_POST["cas"]);
 require_once("exec.inc");
 require_once("config.php");
 
-$id=$_GET["id"];
-$cas=$_GET["cas"];
-$polys=$_GET["polys"];
-$vars=$_GET["vars"];
-$termorder=$_GET["termorder"];
+$id=$_POST["id"];
+$cas=$_POST["cas"];
+$polys=urldecode($_POST["polys"]);
+$vars=$_POST["vars"];
+$termorder=$_POST["termorder"];
 
 $input=cas_call($polys,$vars,$termorder);
 $exec=exec_path();

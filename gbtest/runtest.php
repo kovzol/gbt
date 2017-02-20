@@ -15,7 +15,10 @@ chdir("cas");
 foreach (glob("*.php") as $cas) {
  if ($_POST[str_replace(".","_",$cas)]=='on') {
   $caslist.=$cas.",";
-  $name=file_get_contents(mydir()."runtest1.php?cas=$cas&vars=$varse&polys=$polyse&termorder=$termorder&id=$id");
+  $postdata=http_build_query(array('cas' => $cas, 'vars' => $vars, 'polys' => $polyse, 'termorder' => $termorder, 'id' => $id));
+  $opts=array('http' => array('method'  => 'POST', 'header'  => 'Content-type: application/x-www-form-urlencoded', 'content' => $postdata));
+  $context=stream_context_create($opts);
+  $name=file_get_contents(mydir().'runtest1.php', false, $context);
   }
  }
 $caslist=rtrim($caslist,",");
